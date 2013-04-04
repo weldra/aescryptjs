@@ -4,7 +4,9 @@
   "main": "aescrypt.js",
   "ignore": [
     "**/.*",
+    "bower_components",
     "node_modules",
-    "components"
+    "src",
+    "test"
   ]
 }
