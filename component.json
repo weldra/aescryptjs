@@ -1,0 +1,10 @@
+{
+  "name": "aescrypt",
+  "version": "0.1.0",
+  "main": "aescrypt.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components"
+  ]
+}
