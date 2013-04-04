@@ -4,7 +4,7 @@
   "author": "Weldra",
   "homepage": "https://github.com/weldra/aescryptjs",
   "license": "MIT",
-  "description": "Encrypt and decrypt files using the AESCrypt file format",
+  "description": "Encrypt and decrypt files with the AESCrypt file format",
   "keywords": [
     "AESCrypt"
   ],

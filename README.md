@@ -1,3 +1,4 @@
 AESCryptJS
 ========
-Encrypt and decrypt files using the AESCrypt file format.
+Javascript library to encrypt and decrypt files with the
+[AESCrypt](http://aescrypt.com/) file format.
