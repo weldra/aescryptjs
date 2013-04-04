@@ -1,14 +1,14 @@
 (function(exports){
+  'use strict';
 
   /**
    * Encrypts a file.
    *
    * @param {Blob} file The file to encrypt.
    * @param {string} password The password to encrypt the file with.
-   *
-   * @return {File} The encrypted file
+   * @param {function} callback Function to call when encryption is finished.
    */
-  exports.encrypt = function(file, password) {
+  exports.encrypt = function(file, password, callback) {
     throw "Not yet implemented";
   };
 
@@ -17,10 +17,9 @@
    *
    * @param {Blob} file The file to decrypt.
    * @param {string} password The password to decrypt the file with.
-   *
-   * @return {File} The decrypted file
+   * @param {function} callback Function to call when decryption is finished.
    */
-  exports.decrypt = function(file, password) {
+  exports.decrypt = function(file, password, callback) {
     throw "Not yet implemented";
   };
 
