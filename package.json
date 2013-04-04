@@ -1,18 +1,25 @@
 {
   "name": "aescrypt",
   "version": "0.1.0",
+  "author": "Weldra",
+  "homepage": "https://github.com/weldra/aescryptjs",
+  "license": "MIT",
   "description": "Encrypt and decrypt files using the AESCrypt file format",
-  "main": "aescrypt.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "keywords": [
+    "AESCrypt"
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/weldra/aescryptjs.git"
   },
-  "keywords": [
-    "AESCrypt"
-  ],
-  "author": "Weldra",
-  "license": "MIT"
+  "main": "aescrypt.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "directories": {
+    "doc": "doc",
+    "lib": "lib",
+    "src": "src",
+    "test": "test"
+  }
 }
