@@ -1,5 +1,5 @@
 {
-  "name": "aescrypt",
+  "name": "aescryptjs",
   "version": "0.1.0",
   "main": "aescrypt.js",
   "ignore": [
