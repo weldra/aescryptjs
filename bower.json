@@ -1,0 +1,13 @@
+{
+  "name": "aescryptjs",
+  "version": "0.1.0",
+  "main": "aescrypt.js",
+  "ignore": [
+    "**/.*",
+    "bin",
+    "bower_components",
+    "node_modules",
+    "src",
+    "test"
+  ]
+}
