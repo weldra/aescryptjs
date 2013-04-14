@@ -1,0 +1,6 @@
+src/
+test/
+.bowerrc
+.npmignore
+bower.json
+component.json
