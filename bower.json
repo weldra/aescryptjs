@@ -8,7 +8,9 @@
     "bower_components",
     "node_modules",
     "src",
-    "test"
+    "test",
+    "Gruntfile.js",
+    "package.json"
   ],
   "dependencies": {
     "crypto-js": "http://crypto-js.googlecode.com/files/CryptoJS%20v3.1.2.zip"
