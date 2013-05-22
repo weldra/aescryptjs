@@ -4,3 +4,4 @@ test/
 .npmignore
 bower.json
 component.json
+Gruntfile.js
