@@ -11,11 +11,15 @@ module.exports = function(grunt) {
           module: true
         }
       }
+    },
+    nodeunit: {
+      all: ['test/nodeunit/*.js']
     }
   });
 
   grunt.loadNpmTasks('grunt-contrib-jshint');
+  grunt.loadNpmTasks('grunt-contrib-nodeunit');
 
-  grunt.registerTask('default', ['jshint']);
+  //grunt.registerTask('default', ['jshint']);
 
 };
