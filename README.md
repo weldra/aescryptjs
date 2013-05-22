@@ -1,18 +1,39 @@
 AESCryptJS
 ========
-Javascript library to encrypt and decrypt files with the
-[AESCrypt](http://aescrypt.com/) file format.
+Javascript library to read and write [AESCrypt](http://aescrypt.com/) files.
 
 ## Installation
 
 ### NPM
 
-    npm install -g aescrypt
+**Note: not yet registered!**
 
-**Note: not registered yet!**
+    npm install -g aescrypt
 
 ### Bower
 
+**Note: not yet registered!**
+
     bower install aescryptjs
 
-**Note: not registered yet!**
+## Usage
+
+To encrypt an AESCrypt file
+
+    var aescrypt = require('aescrypt');
+
+    var file = 'myfile.txt',
+        pass = 'MyPassPhrase';
+
+    aescrypt.encrypt(file, pass, function() {
+
+    });
+
+To decrypt an AESCrypt file
+
+    var file = 'myfile.txt.aes',
+        pass = 'MyPassPhrase';
+
+    aescrypt.decrypt(file, pass, function() {
+
+    });
