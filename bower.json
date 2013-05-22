@@ -9,5 +9,8 @@
     "node_modules",
     "src",
     "test"
-  ]
+  ],
+  "dependencies": {
+    "crypto-js": "http://crypto-js.googlecode.com/files/CryptoJS%20v3.1.2.zip"
+  }
 }
